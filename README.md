@@ -38,3 +38,24 @@ Guild Wars 2 - Copyright
 ©2010–2013 ArenaNet, LLC. and NC Interactive, LLC. All rights reserved. Guild Wars, Guild Wars 2, ArenaNet, NCSOFT, the Interlocking NC Logo, and all associated logos and designs are trademarks or registered trademarks of NCSOFT Corporation. All other trademarks are the property of their respective owners.
 
 ["Guild Wars 2 - Content Terms of Use"](https://www.guildwars2.com/en/legal/guild-wars-2-content-terms-of-use/)
+
+Changelog
+-
+
+- 1.1 - 27.12.2013
+-- Fixed a bug for caching.
+-- Update SDK (PhpGw2Api) to latest version.
+-- Cleaning the code base and elimination of useless code elements.
+-- The image size (home-world.png) is reduced to 276 bytes.
+
+- 1.0.2 - 29.07.2013
+-- Now the results of the matches are sorted by score, from highest to lowest.
+
+- 1.0.1 - 22.06.2013
+-- Added selection of language (en, fr, de, es).
+-- Implemented style sheet instead of displaying it in the code (show style.css).
+-- Fixes permissions for caching.
+-- Update SDK (PhpGw2Api) to latest version.
+
+- 1.0.0 - 22.06.2013
+-- First release.
