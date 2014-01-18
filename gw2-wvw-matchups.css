@@ -1,0 +1,7 @@
+#gw2-wvw-matchups .match { padding: 5px 10px; margin: 10px 0px;}
+#gw2-wvw-matchups .match.red { background: #AA4644; color: #fff; }
+#gw2-wvw-matchups .match.green { background: #89A54E; color: #fff; }
+#gw2-wvw-matchups .match.blue { background: #4573A7; color: #fff; }
+#gw2-wvw-matchups .match .home-world { padding-left: 18px; background: url('images/home-world.png') left center no-repeat; }
+#gw2-wvw-matchups .match .world { font-size: 16px; display: block;  }
+#gw2-wvw-matchups .match .points { font-size: 28px; display: block; }
