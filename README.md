@@ -1,6 +1,8 @@
 Guild Wars 2 - WvW Matchups
 =========
 
+- Current version: 1.1
+
 Guild Wars 2 - WvW Matchups, is a plugin for WordPress to display the live scores of WvW matchups of Guild Wars 2
 
 The names of the worlds and scores can be displayed in 4 languages (en, fr, de, es).
