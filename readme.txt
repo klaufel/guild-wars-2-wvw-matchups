@@ -3,8 +3,8 @@ Contributors: klaufel
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=WC2WU4PKNCV2N&lc=ES&item_name=Guild%20Wars%202%20-%20WvW%20Matchups
 Tags: guild, guildwars, guildwars2, gw2, wvw, matchups, guild wars 2, world vs world, mundo contra mundo, guild wars plugin, enfrentamientos, guild wars, puntuaciones, world, mundo, juegos, videojuegos, gaming, gamer
 Requires at least: 3.0
-Tested up to: 3.8
-Stable tag: 1.1
+Tested up to: 3.9
+Stable tag: 2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,15 +22,6 @@ If you have any issues or feature requests please visit the plugin [Plugin Page]
 
 The plugin refreshes its data by ArenaNet API (beta)
 https://forum-en.guildwars2.com/forum/community/api/API-Documentation
-
-
-= Php-Gw2-Api =
-
-Php-Gw2-Api is a PHP wrapper for the Guild Wars 2 API.
-https://github.com/jamesmcfadden/PhpGw2Api
-
-Released under the MIT licence
-http://opensource.org/licenses/MIT
 
 
 = Requirements =
@@ -69,6 +60,16 @@ If the load times on your website increases, you should look at the permissions 
 
 
 == Changelog ==
+
+= 1.2.1 - 07.06.2014 =
+* Fixed problem to caching. UPDATE IMPORTANT
+
+= 1.2 - 07.06.2014 =
+* Updating SDK.
+* Critical fixed for problem the plugin (UPDATE IMPORTANT).
+* world_names.json is disabled in the ArenaNet´s API.
+* Getting server names manually (temporarily)
+
 
 = 1.1 - 27.12.2013 =
 * Fixed a bug for caching.

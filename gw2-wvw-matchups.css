@@ -1,7 +1,39 @@
-#gw2-wvw-matchups .match { padding: 5px 10px; margin: 10px 0px;}
-#gw2-wvw-matchups .match.red { background: #AA4644; color: #fff; }
-#gw2-wvw-matchups .match.green { background: #89A54E; color: #fff; }
-#gw2-wvw-matchups .match.blue { background: #4573A7; color: #fff; }
-#gw2-wvw-matchups .match .home-world { padding-left: 18px; background: url('images/home-world.png') left center no-repeat; }
-#gw2-wvw-matchups .match .world { font-size: 16px; display: block;  }
-#gw2-wvw-matchups .match .points { font-size: 28px; display: block; }
+/* Color of Worlds */
+.gw2-wvw-matchups .red { background-color: #AA4644!important; }
+.gw2-wvw-matchups .green { background-color: #89A54E!important; }
+.gw2-wvw-matchups .blue { background-color: #4573A7!important; }
+
+/* GW2 Matchups */
+.gw2-wvw-matchups ul.gw2-matchups { margin: 0; padding: 0; }
+.gw2-wvw-matchups ul.gw2-matchups li.match { padding: 8px; margin: 0 0 10px; display: block; }
+.gw2-wvw-matchups ul.gw2-matchups li.match:last-child { margin-bottom: 0; }
+.gw2-wvw-matchups ul.gw2-matchups li.match span { display: block; color: #fff; }
+.gw2-wvw-matchups ul.gw2-matchups li.match span.world { font-size: 16px; line-height: 20px; margin-bottom: 5px; }
+.gw2-wvw-matchups ul.gw2-matchups li.match span.world.home-world { padding-left: 20px; background: url('images/gw2-wvw-matchups.png') -12px 2px no-repeat; }
+.gw2-wvw-matchups ul.gw2-matchups li.match span.points { font-size: 28px;line-height: 30px; }
+
+/* GW2 Objectives */
+.gw2-wvw-matchups ul.gw2-objectives { margin: 0; padding: 0; margin-top: 20px;}
+.gw2-wvw-matchups ul.gw2-objectives li { height: 40px; border-bottom: 1px solid #ddd; margin: 0px; padding: 0px; }
+.gw2-wvw-matchups ul.gw2-objectives li.home-world { background-image: url('images/gw2-wvw-matchups.png'); background-repeat: no-repeat; background-position: 10px center; }
+.gw2-wvw-matchups ul.gw2-objectives li span { background: #F9F9F9; width: 23%; line-height: 40px; margin: 0px; padding: 0px; float: left;text-align: center;font-size: 28px; color: #555;}
+.gw2-wvw-matchups ul.gw2-objectives li span.world { width: 8%; text-indent: -9999px; }
+.gw2-wvw-matchups ul.gw2-objectives li.home-world span.world { background-image: url('images/gw2-wvw-matchups.png'); background-repeat: no-repeat; background-position: center 11px; background-size: auto; }
+.gw2-wvw-matchups ul.gw2-objectives li.home-world span { font-weight: bold; color: #000; }
+.gw2-wvw-matchups ul.gw2-objectives li.leyend span { text-indent: -9999px; background: url('images/gw2-wvw-matchups.png') no-repeat center -40px; }
+.gw2-wvw-matchups ul.gw2-objectives li.leyend span.world { background: none; }
+.gw2-wvw-matchups ul.gw2-objectives li.leyend span.camp { background-position: center -40px; }
+.gw2-wvw-matchups ul.gw2-objectives li.leyend span.tower { background-position: center -80px; }
+.gw2-wvw-matchups ul.gw2-objectives li.leyend span.keep { background-position: center -120px; }
+.gw2-wvw-matchups ul.gw2-objectives li.leyend span.castle { background-position: center -160px; }
+
+/* SKIN: Vivid Colors (vivid-colors) */
+/*.gw2-wvw-matchups.vivid-colors .red, .gw2-wvw-matchups.vivid-colors .green, .gw2-wvw-matchups.vivid-colors .blue { background-image: url('images/bg.png'); background-repeat: no-repeat; }
+.gw2-wvw-matchups.vivid-colors .red { background-color: #DD4E46!important; background-position: 0px 0px; }
+.gw2-wvw-matchups.vivid-colors .green { background-color: #008ED3!important; background-position: 0px -140px; }
+.gw2-wvw-matchups.vivid-colors .blue { background-color: #59B958!important; background-position: 0px -280px; }
+.gw2-wvw-matchups.vivid-colors ul.gw2-objectives li.leyend span { background-image: url('images/gw2-wvw-matchups-original.png'); }
+*/
+.gw2-wvw-matchups.vivid-colors .red { background-color: #DD4E46!important; background-position: 0px 0px; }
+.gw2-wvw-matchups.vivid-colors .green { background-color: #008ED3!important; background-position: 0px -140px; }
+.gw2-wvw-matchups.vivid-colors .blue { background-color: #59B958!important; background-position: 0px -280px; }
